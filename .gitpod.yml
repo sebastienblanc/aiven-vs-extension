@@ -1,0 +1,8 @@
+image: gitpod/workspace-node
+tasks:
+  - init: npm install && npm run compile
+    command: npm run watch
+
+vscode:
+  extensions:
+    - timkmecl.chatgpt
